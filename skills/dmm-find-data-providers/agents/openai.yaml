@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find AI Data Providers"
+  short_description: "Find suitable AI data providers and licensing partners"
+  default_prompt: "Use $dmm-find-data-providers to find partners for my AI data project."
