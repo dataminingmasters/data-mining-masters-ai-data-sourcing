@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "data-mining-masters-ai-data-sourcing",
+  "version": "1.0.0",
+  "description": "Find AI data providers, compare licensing options, and prepare data partnership briefs using public sources and your requirements.",
+  "author": {
+    "name": "Data Mining Masters",
+    "url": "https://dataminingmasters.com/"
+  },
+  "homepage": "https://dataminingmasters.com/",
+  "license": "MIT",
+  "keywords": [
+    "ai-data",
+    "data-licensing",
+    "training-data",
+    "datasets",
+    "data-providers",
+    "data-partnerships"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "AI Data Sourcing",
+        "shortDescription": "Find and compare data partners",
+        "longDescription": "A three-skill research toolkit from Data Mining Masters. Find AI data providers or licensing partners, compare access and published terms, and prepare a metadata-only partnership brief with a draft inquiry. Distinguishes buying data from licensing out data, cites supporting sources, and identifies unknown eligibility, prices, and rights. Uses your agent's available web tools for current research; comparisons and briefs also work from supplied materials. No bundled server, API key, or private account connection is required. Does not submit applications, purchase data, or send outreach automatically.",
+        "developerName": "Data Mining Masters",
+        "category": "Data & Analytics",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Find AI data providers for my project and explain what I need to verify.",
+          "Compare my shortlisted data providers using sourced facts and clear evidence gaps.",
+          "Turn my data inventory into a partnership brief and draft inquiry."
+        ],
+        "websiteURL": "https://dataminingmasters.com/"
+      }
+    }
+  },
+  "repository": "https://github.com/dataminingmasters/data-mining-masters-ai-data-sourcing"
+}
