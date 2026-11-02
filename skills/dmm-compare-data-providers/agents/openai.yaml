@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compare AI Data Providers"
+  short_description: "Compare data access, licensing terms, and evidence"
+  default_prompt: "Use $dmm-compare-data-providers to compare my shortlisted data partners."
