@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare a Data Partnership"
+  short_description: "Turn a data inventory into a clear partnership brief"
+  default_prompt: "Use $dmm-prepare-data-partnership to prepare a brief from my data inventory."
